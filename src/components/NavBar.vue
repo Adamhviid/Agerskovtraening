@@ -14,9 +14,12 @@
         <router-link to="/kontakt" class="text-sm font-semibold leading-6 text-gray-900">Kontakt</router-link>
         <router-link to="/feed" class="text-sm font-semibold leading-6 text-gray-900">Feed</router-link>
       </div>
-      <div class="hidden lg:flex lg:flex-1 lg:justify-end">
+      <div class="lg:hidden">
+        <!-- Mobile Menu Trigger -->
+        <!-- Add your mobile menu button/icon here -->
       </div>
     </nav>
+    
   </header>
 </template>
 
@@ -27,5 +30,17 @@ export default {
 </script>
 
 <style>
+@media (max-width: 1024px) {
+  .lg\:flex {
+    display: flex;
+  }
 
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:gap-x-12 {
+    gap: 1.5rem;
+  }
+}
 </style>
