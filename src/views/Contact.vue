@@ -30,10 +30,10 @@
       </div>
       <div class="mt-7">
         <button type="submit"
-          class="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+          class="block w-full rounded-md bg-blue-500 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
           <span v-if="!loading">Send</span>
           <div v-else class="flex justify-center">
-            <div class="w-5 h-5 border-2 border-indigo-200 rounded-full animate-spin"></div>
+            <div class="w-5 h-5 border-2 rounded-full animate-spin"></div>
           </div>
         </button>
       </div>
