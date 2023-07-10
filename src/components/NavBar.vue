@@ -10,16 +10,18 @@
         </router-link>
       </div>
       <div class="hidden lg:flex lg:gap-x-12">
-        <router-link to="/priser" class="text-sm font-semibold leading-6 text-gray-900">Priser</router-link>
-        <router-link to="/kontakt" class="text-sm font-semibold leading-6 text-gray-900">Kontakt</router-link>
-        <router-link to="/feed" class="text-sm font-semibold leading-6 text-gray-900">Feed</router-link>
-      </div>
-      <div class="lg:hidden">
-        <!-- Mobile Menu Trigger -->
-        <!-- Add your mobile menu button/icon here -->
+
+        <router-link to="/forløb"
+          class="text-sm font-semibold leading-6 text-gray-900 hover:text-[#32579a]">forløb</router-link>
+
+        <router-link to="/kontakt"
+          class="text-sm font-semibold leading-6 text-gray-900 hover:text-[#32579a]">Kontakt</router-link>
+
+        <router-link to="/feed"
+          class="text-sm font-semibold leading-6 text-gray-900 hover:text-[#32579a]">Feed</router-link>
+
       </div>
     </nav>
-    
   </header>
 </template>
 

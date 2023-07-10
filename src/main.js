@@ -6,12 +6,14 @@ import { createRouter, createWebHistory } from 'vue-router'
 import Home from './views/Home.vue'
 import About from './views/About.vue'
 import Contact from './views/Contact.vue'
+import Programs from './views/Programs.vue'
+import Feed from './views/Feed.vue'
 
 const routes = [
   { path: '/', component: Home },
   { path: '/om', component: About },
-  { path: '/priser', component: About },
-  { path: '/feed', component: About },
+  { path: '/forløb', component: Programs },
+  { path: '/feed', component: Feed },
   { path: '/kontakt', component: Contact },
 ]
 
