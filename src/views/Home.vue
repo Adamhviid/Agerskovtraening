@@ -1,4 +1,5 @@
 <script setup>
+import TrustPilot from '../components/TrustPilot.vue';
 const features = [
   {
     titel: "Skadeforebyggelse - primært knæ og skuldre.",
@@ -45,6 +46,30 @@ const features = [
             </div>
           </div>
         </div>
+        <div class="relative hidden sm:block">
+          <img src="../assets/blueBackground.jpeg" alt="blueBackground" class="w-full mt-10">
+          <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center">
+            <div class="w-2/4 p-4">
+              <p class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                Book en aftale
+              </p>
+              <p class="text-lg leading-8 text-white">
+                Her kan du se mere om mine forløb og services. Der er bestemte forløb, men de er ikke fastlagt, så tag
+                gerne
+                kontakt hvis vi skal finde ud af en anden fremgangsmåde eller bare flere gange om måneden.
+              </p>
+              <div class="">
+                <button class="mt-5 bg-white text-blue-950 font-bold py-2 px-4 rounded float-left">
+                  <router-link to="/forløb">Se mere</router-link>
+                </button>
+                <button class="mt-5 bg-white text-blue-950 font-bold py-2 px-4 rounded float-right">
+                  <router-link to="/kontakt">kontakt</router-link>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <TrustPilot />
       </div>
     </div>
   </div>
@@ -71,7 +96,7 @@ const features = [
 
 .banner-image {
   width: 100%;
-  height: 100%;
+  height: 70%;
   object-fit: cover;
   object-position: center;
 }
