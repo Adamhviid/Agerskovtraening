@@ -8,7 +8,7 @@
       <form @submit.prevent="sendEmail" class="mt-2">
         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
           <div class="sm:col-span-2">
-            <label for="name" class="block text-sm font-semibold leading-6 text-gray-900">Navn</label>
+            <label for="name" class="block text-sm font-semibold leading-6 text-gray-900">Fulde Navn</label>
             <div class="mt-2.5">
               <input type="text" name="name" id="name"
                 class="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6" />
@@ -62,27 +62,37 @@ export default {
     async sendEmail() {
       this.loading = true;
       try {
+        /* if (this.email === '' && this.name === '' && this.message === '') {
+          alert("Udfyld venligst alle felter");
+          this.loading = false;
+          return;
+        } */
         await emailjs.sendForm(
           import.meta.env.VITE_EMAILJS_SERVICE_ID,
           import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-          e.target,
+          document.querySelector('form'),
           import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
           {
             email: this.email,
             name: this.name,
-            message: this.meessage
-          }
-        );
+            message: this.message
+          },
+        ).then((result) => {
+          alert("Tak for din besked, jeg vender tilbage hurtigst muligt")
+          console.log(result.text);
+        }, (error) => {
+          alert("Der skete en fejl, prøv venligst igen")
+          console.log(error.text);
+        });
       } catch (error) {
-
         console.error(error);
       }
-
       this.loading = false;
       this.email = '';
       this.name = '';
       this.message = '';
-    },
+    }
+
   }
 }
 </script>

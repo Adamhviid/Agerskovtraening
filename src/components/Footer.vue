@@ -21,6 +21,14 @@
       <div class="sm:flex sm:items-center sm:justify-between">
           <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Agerskovtraening™</a>. All Rights Reserved.
           </span>
+          <div>
+            <div class="trustpilot-widget" data-locale="da-DK" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="63dad818ca6109a9f0b98c4e" data-style-height="52px" data-style-width="100%">
+              <a href="https://dk.trustpilot.com/review/agerskovtraening.dk" target="_blank" rel="noopener">Trustpilot</a>
+            </div>
+            <div class="trustpilot-widget" data-locale="da-DK" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="63dad818ca6109a9f0b98c4e" data-style-height="40px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-style-alignment="center">
+    <a href="https://dk.trustpilot.com/review/agerskovtraening.dk" target="_blank" rel="noopener">Trustpilot</a>
+</div>
+          </div>
           <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
             <h1 class="text-gray-500">Følg mig på de sociale:</h1>
               <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100086447864797"  class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
