@@ -79,7 +79,10 @@ export default {
           },
         ).then((result) => {
           alert("Tak for din besked, jeg vender tilbage hurtigst muligt")
-          console.log(result.text);
+          this.loading = false;
+          this.name = '';
+          this.email = '';
+          this.message = '';
         }, (error) => {
           alert("Der skete en fejl, prøv venligst igen")
           console.log(error.text);
