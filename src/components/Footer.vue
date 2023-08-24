@@ -1,35 +1,49 @@
 <template lang="">
-<footer class="bg-white dark:bg-gray-900">
-  <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+  <footer class="bg-white dark:bg-white">
+    <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-       <!--  <div class="md:flex md:justify-between">
-          <div class="mb-6 md:mb-0">
-                  <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Agerskovtræning</span>
-          </div>
-          <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Resources</h2>
-              </div>
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Follow us</h2>
-              </div>
-              <div>
-                  <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-              </div>
-          </div>
-      </div> -->
       <div class="sm:flex sm:items-center sm:justify-between">
-          <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/" class="hover:underline">Agerskovtraening™</a>. All Rights Reserved.
-          </span>
-          <div>
-            <div class="trustpilot-widget" data-locale="da-DK" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="63dad818ca6109a9f0b98c4e" data-style-height="52px" data-style-width="100%">
-              <a href="https://dk.trustpilot.com/review/agerskovtraening.dk" target="_blank" rel="noopener">Trustpilot</a>
-            </div>
-            <div class="trustpilot-widget" data-locale="da-DK" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="63dad818ca6109a9f0b98c4e" data-style-height="40px" data-style-width="100%" data-theme="light" data-min-review-count="10" data-style-alignment="center">
-    <a href="https://dk.trustpilot.com/review/agerskovtraening.dk" target="_blank" rel="noopener">Trustpilot</a>
-</div>
+        <span class="text-sm text-gray-500 sm:text-center dark:text-gray-400">
+          © 2023 Agerskovtraening™. All Rights Reserved.
+        </span>
+        <div class="mt-5">
+          <div
+            class="trustpilot-widget"
+            data-locale="da-DK"
+            data-template-id="56278e9abfbbba0bdcd568bc"
+            data-businessunit-id="63dad818ca6109a9f0b98c4e"
+            data-style-height="52px"
+            data-style-width="100%"
+          >
+            <a
+              href="https://dk.trustpilot.com/review/agerskovtraening.dk"
+              target="_blank"
+              rel="noopener"
+            >
+              Trustpilot
+            </a>
           </div>
-          <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
+          <div
+            class="trustpilot-widget"
+            data-locale="da-DK"
+            data-template-id="5419b6a8b0d04a076446a9ad"
+            data-businessunit-id="63dad818ca6109a9f0b98c4e"
+            data-style-height="40px"
+            data-style-width="100%"
+            data-theme="auto"
+            data-min-review-count="10"
+            data-style-alignment="center"
+          >
+            <a
+              href="https://dk.trustpilot.com/review/agerskovtraening.dk"
+              target="_blank"
+              rel="noopener"
+            >
+              Trustpilot
+            </a>
+          </div>
+        </div>
+        <div class="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
             <h1 class="text-gray-500">Følg mig på de sociale:</h1>
               <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/profile.php?id=100086447864797"  class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
                   <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
@@ -52,14 +66,9 @@
           </div>
       </div>
     </div>
-</footer>
-
+  </footer>
 </template>
 <script>
-export default {
-
-}
+export default {};
 </script>
-<style lang="">
-  
-</style>
+<style lang="scss"></style>
