@@ -9,7 +9,7 @@
       </div>
 
       <div class="hidden lg:flex lg:gap-x-12">
-        <router-link to="/forløb" class="text-sm font-semibold leading-6  hover:text-[#32579a]">
+        <router-link to="/forloeb" class="text-sm font-semibold leading-6  hover:text-[#32579a]">
           Forløb
         </router-link>
         <router-link to="/kontakt" class="text-sm font-semibold leading-6  hover:text-[#32579a]">

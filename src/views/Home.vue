@@ -60,7 +60,7 @@ const features = [
               </p>
               <div class="">
                 <button class="mt-5 bg-white text-blue-950 font-bold py-2 px-4 rounded float-left">
-                  <router-link to="/forløb">Se mere</router-link>
+                  <router-link to="/forloeb">Se mere</router-link>
                 </button>
                 <button class="mt-5 bg-white text-blue-950 font-bold py-2 px-4 rounded float-right">
                   <router-link to="/kontakt">kontakt</router-link>

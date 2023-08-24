@@ -12,7 +12,7 @@ import Feed from './views/Feed.vue'
 const routes = [
   { path: '/', component: Home },
   { path: '/om', component: About },
-  { path: '/forløb', component: Programs },
+  { path: '/forloeb', component: Programs },
   { path: '/feed', component: Feed },
   { path: '/kontakt', component: Contact },
 ]
