@@ -1,6 +1,11 @@
 <template>
-  <vueper-slides lazy lazy-load-on-drag autoplay class="no-shadow" :slide-ratio="1 / 1" bullets-outside transition-speed="350">
+  <vueper-slides lazy lazy-load-on-drag autoplay class="no-shadow" :slide-ratio="1 / 1" bullets-outside
+    transition-speed="350">
     <vueper-slide v-for="(slide, i) in slides" :key="i" :image="slide.content">
+      <template #loader>
+        <i class="icon icon-loader spinning"></i>
+        <span>Loading...</span>
+      </template>
     </vueper-slide>
   </vueper-slides>
 </template>
@@ -74,4 +79,8 @@ export default {
   }
 }
 </script>
-<style></style>
+<style>
+.vueperslide--loading .vueperslide__content-wrapper {
+  display: none !important;
+}
+</style>
