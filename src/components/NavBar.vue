@@ -3,7 +3,7 @@
     <nav class="mx-auto flex max-w-7xl items-center justify-between p-3">
       <div class="flex lg:flex-1">
         <router-link to="/" class="text-sm font-semibold leading-6 flex items-center">
-          <img class="h-8 w-auto mr-2" src="/favicon.ico" alt="">
+          <img class="h-12 w-auto mr-2" src="/favicon.ico" alt="">
           <span class="test">Forside</span>
         </router-link>
       </div>

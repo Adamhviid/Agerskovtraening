@@ -20,7 +20,6 @@
               target="_blank"
               rel="noopener"
             >
-              Trustpilot
             </a>
           </div>
           <div
