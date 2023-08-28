@@ -1,5 +1,5 @@
 <template>
-  <vueper-slides autoplay class="no-shadow" :slide-ratio="1 / 1" bullets-outside transition-speed="350">
+  <vueper-slides lazy lazy-load-on-drag autoplay class="no-shadow" :slide-ratio="1 / 1" bullets-outside transition-speed="350">
     <vueper-slide v-for="(slide, i) in slides" :key="i" :image="slide.content">
     </vueper-slide>
   </vueper-slides>
