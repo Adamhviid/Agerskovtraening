@@ -62,14 +62,11 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
           </div>
         </div>
         <div class="mt-5 mx-auto max-w-xl">
-          <!-- <p class="mt-8 text-xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-            LÆS HVAD ANDRE MENER
-          </p> -->
           <ReviewCarousel />
           <div class="mt-5">
             <a href="https://dk.trustpilot.com/review/agerskovtraening.dk" target="_blank" class="font-semibold">
               <button class="bg-blue-950 hover:text-[#32579a] text-white font-bold py-2 px-4 rounded-full">
-                Læs mere her på trustpilot
+                Læs mere på trustpilot
               </button>
             </a>
           </div>
