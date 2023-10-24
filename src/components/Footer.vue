@@ -1,10 +1,10 @@
 <template lang="">
-  <footer class="bg-blue-950 text-white mt-4">
+  <footer class="bg-blue-950 text-white">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="sm:flex sm:items-center sm:justify-between">
         <div class="lg:text-left sm:text-left sm:text-justify sm:justify-center">
           <p class="p-1 text-xl font-bold relative mt-1">
-            Agerskov træning
+            Agerskov Træning
           </p>
           <div class="flex flex-col  sm:flex-row justify-center sm:justify-between">
             <div class="p-1 lg:pr-10 ">
