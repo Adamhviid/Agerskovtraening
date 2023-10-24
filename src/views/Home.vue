@@ -6,7 +6,7 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
 <template>
     <div class="info">
         <div class="banner-container">
-            <img alt="banner" src="../assets/new/banner.jpeg" class="banner-image mx-auto" />
+            <img alt="banner" src="../assets/newBanner.jpeg" class="banner-image mx-auto" />
         </div>
         <div class="white w-3/4 mx-auto mt-64 lg:px-8">
             <p class="text-6xl font-bold tracking-tight text-white lg:text-center">
@@ -70,7 +70,7 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
                     </div>
                 </div>
                 <div class="md:text-right">
-                    <img src="../assets/new/image00004.jpeg" alt="Your Image" class="max-w-full h-auto" />
+                    <img src="../assets/phillip1.jpeg" alt="Your Image" class="max-w-full h-auto" />
                 </div>
             </div>
             <div class="relative mt-5">
