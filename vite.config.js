@@ -1,14 +1,15 @@
-import { defineConfig } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import { defineConfig } from 'vite';
+import vue from '@vitejs/plugin-vue';
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
   build: {
     rollupOptions: {
-      // Make sure to include your assets directory
-      // in the external option to prevent Rollup from bundling them.
-      external: ['src/assets/new/banner.jpeg'],
+      //add external assets to the bundle
+      external: [
+        'src/assets/new/banner.jpeg',
+        'src/assets/new/image00004.jpeg'
+      ],
     },
   },
-})
+});
