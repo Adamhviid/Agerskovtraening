@@ -9,10 +9,10 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
             <img alt="banner" src="../assets/newBanner.jpeg" class="banner-image mx-auto" />
         </div>
         <div class="white w-3/4 mx-auto mt-64 lg:px-8">
-            <p class="text-6xl font-bold tracking-tight text-white lg:text-center">
+            <p class="text-3xl font-bold tracking-tight text-white lg:text-center lg:text-6xl">
                 AGERSKOVTRÆNING
             </p>
-            <p class="text-4xl mt-10 font-bold tracking-tight text-white">
+            <p class="text-2xl mt-10 font-bold tracking-tight text-white lg:text-4xl">
                 PERSONLIG TRÆNING | ONLINE COACHING
             </p>
         </div>
@@ -30,8 +30,11 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
         </div>
 
         <div class="box">
+            <h1 class="text-md mt-8 font-bold tracking-tight lg:text-2xl">
+                Få maksimalt ud af din indsats!
+            </h1>
             <div class="text relative">
-                Få maksimalt ud af din indsats! Personlig træning / online coaching er en investering i din fremtid.
+                Personlig træning / online coaching er en investering i din fremtid.
                 Din læren
                 om træning, kost og tilgangen hertil er en lifeskill, som du kan tage med dig resten af livet og
                 lære videre
@@ -45,15 +48,15 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
         </div>
 
         <div class="box">
-            <h1 class="mt-8 font-bold tracking-tight sm:text-3xl">
+            <h1 class="mt-8 font-bold tracking-tight">
                 MED PHILIP SOM TRÆNER
             </h1>
             <div class="mt-3 relative mt-1">
                 Dine resultater er lettere opnået, og rejsen er mere givende, end du tror.
             </div>
             <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="mt-16 text-left">
-                    <div class="relative mt-5">
+                <div class="mt-16">
+                    <div class="relative">
                         Som ung bliver mange spurgt om hvad man vil arbejde med, men jeg mener der bør være nogle
                         spørgsmål inden da:
                     </div>
@@ -69,7 +72,7 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
                         </div>
                     </div>
                 </div>
-                <div class="md:text-right">
+                <div>
                     <img src="../assets/phillip1.jpeg" alt="Your Image" class="max-w-full h-auto" />
                 </div>
             </div>
@@ -84,7 +87,7 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
             </div>
 
         </div>
-        <div class="box" style="width: 50%">
+        <div class="box reviewbox mx-auto ">
             <ReviewCarousel />
             <a href="https://dk.trustpilot.com/review/agerskovtraening.dk" target="_blank" class="font-semibold mt-5">
                 <button class="bg-blue-950 hover:text-[#32579a] text-white font-bold py-2 px-4 rounded-full">
@@ -129,14 +132,22 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
 
 .box {
     background-color: rgba(0, 0, 0, 0.7);
-    /* 80% transparent white background */
     padding: 2rem;
     width: 70%;
     text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 24rem;
+    margin: 24rem auto 1rem;
     font-size: 1.5rem;
     color: white;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .box {
+        width: 95%;
+    }
+
+    .reviewbox {
+        padding: 0 0 5px 0;
+    }
 }
 </style>

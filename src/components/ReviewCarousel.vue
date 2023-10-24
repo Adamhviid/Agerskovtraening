@@ -78,6 +78,7 @@ export default {
   }
 }
 </script>
+
 <style>
 .vueperslide--loading .vueperslide__content-wrapper {
   display: none !important;
