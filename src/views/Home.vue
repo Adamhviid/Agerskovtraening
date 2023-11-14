@@ -17,7 +17,7 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
             </p>
         </div>
 
-        <div class="box text">
+        <div class="box">
             <div class="mx-auto max-w-2xl lg:text-center">
                 <p class="text-md leading-8">
                     FysioDanmark Hillerød & Smiley Fitness
@@ -135,9 +135,13 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
     padding: 2rem;
     width: 70%;
     text-align: center;
-    margin: 24rem auto 1rem;
+    margin: 16rem auto;
     font-size: 1.5rem;
     color: white;
+}
+
+.reviewbox {
+    width: 50%
 }
 
 /* Media query for mobile devices */

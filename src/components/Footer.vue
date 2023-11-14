@@ -71,18 +71,6 @@
               CVR 43600605
             </p>
           </div>
-          <div>
-            <!-- TrustBox widget - Micro Review Count -->
-            <div class="trustpilot-widget mt-3 text-right" data-locale="da-DK" data-template-id="5419b6a8b0d04a076446a9ad" data-businessunit-id="63dad818ca6109a9f0b98c4e" data-style-height="24px" data-style-width="100%" data-theme="dark" data-min-review-count="10" data-style-alignment="right">
-              <a href="https://dk.trustpilot.com/review/agerskovtraening.dk" target="_blank" rel="noopener">Trustpilot</a>
-            </div>
-            <!-- End TrustBox widget -->
-            <!-- TrustBox widget - Review Collector -->
-            <div class="trustpilot-widget mt-3 float-right" data-locale="da-DK" data-template-id="56278e9abfbbba0bdcd568bc" data-businessunit-id="63dad818ca6109a9f0b98c4e" data-style-height="52px" data-style-width="100%">
-              <a href="https://dk.trustpilot.com/review/agerskovtraening.dk" target="_blank" rel="noopener">Trustpilot</a>
-            </div>
-            <!-- End TrustBox widget -->
-          </div>
         </div>
       </div>
     </div>
