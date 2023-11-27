@@ -87,14 +87,14 @@ import ReviewCarousel from '../components/ReviewCarousel.vue';
             </div>
 
         </div>
-        <div class="box reviewbox mx-auto ">
+        <!-- <div class="box reviewbox mx-auto ">
             <ReviewCarousel />
             <a href="https://dk.trustpilot.com/review/agerskovtraening.dk" target="_blank" class="font-semibold mt-5">
                 <button class="bg-blue-950 hover:text-[#32579a] text-white font-bold py-2 px-4 rounded-full">
                     Læs mere på trustpilot
                 </button>
             </a>
-        </div>
+        </div> -->
     </div>
 </template>
 

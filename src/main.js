@@ -14,7 +14,7 @@ const routes = [
   { path: '/', component: Home },
   { path: '/om', component: About },
   { path: '/forloeb', component: Programs },
-  { path: '/feed', component: Feed },
+  /* { path: '/feed', component: Feed }, */
   { path: '/kontakt', component: Contact },
 ]
 

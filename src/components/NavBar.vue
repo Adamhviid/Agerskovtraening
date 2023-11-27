@@ -15,9 +15,9 @@
         <router-link to="/kontakt" class="text-md font-semibold leading-6  hover:text-[#32579a]">
           Kontakt
         </router-link>
-        <router-link to="/feed" class="text-md font-semibold leading-6  hover:text-[#32579a]">
+        <!-- <router-link to="/feed" class="text-md font-semibold leading-6  hover:text-[#32579a]">
           Feed
-        </router-link>
+        </router-link> -->
       </div>
     </nav>
   </header>
