@@ -6,7 +6,7 @@ import Button from '../components/Button.vue'
 
 <template>
     <Layout>
-        <div class="info">
+        <div>
             <div class="headerbox">
                 <p class="text-3xl font-bold tracking-tight text-white lg:text-center lg:text-6xl">
                     AGERSKOVTRÆNING

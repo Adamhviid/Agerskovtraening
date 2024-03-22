@@ -30,7 +30,7 @@ export default {
           title: 'MAKKER FORLØB',
           subtitle: 'Superviseret træning | Online vejledning | personaliserede træningsprogrammer | Kostvejledning',
           description: 'Privat forløb, men med din træningsbuddy! Vi skruer op for det sociale og tilrettelægger træningen til jer begge, så I kan være sammen om det, men stadig træne hvert for sig når det ikke passer med et team-up.',
-          extra_description: "I sparer hver 25% på forløb her.",
+          extra_description: "I sparer hver 40% pr. forløb her.",
           price: '1.200,-/person'
         },
         {
@@ -38,7 +38,7 @@ export default {
           title: 'ENKELTSESSION',
           subtitle: 'Superviseret træning | personaliseret træningsprogram | Sparring om træningslære',
           description: 'I en træning med mig får du lavet et personligt træningsprogram som er tilrettelagt dig, dine ønsker og dine mål. I træningen sparrer vi om hvordan man forholder sig til øvelser, teknikker og får råd med på vejen til efter din session.',
-          extra_description: "I sparer hver 25% på forløb her.",
+          /* extra_description: "I sparer hver 25% på forløb her.", */
           price: '750,-'
         },
         {
@@ -60,7 +60,7 @@ export default {
 
 <template>
   <Layout>
-    <div class="">
+    <div>
       <div class="headerbox">
         <p class="text-3xl font-bold tracking-tight text-white lg:text-center lg:text-6xl">
           Forløb & Træningsprogrammer
@@ -86,9 +86,9 @@ export default {
           <p class="mt-2">
             {{ item.extra_description }}
           </p>
-          <p class="mt-2">
+          <!-- <p class="mt-2">
             priser fra {{ item.price }}
-          </p>
+          </p> -->
           <div class="p-3">
             <router-link to="/kontakt">
               <button class="bg-white hover:text-[#32579a] text-black font-bold py-2 px-4 rounded-full">
