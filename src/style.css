@@ -23,3 +23,53 @@ main {
   margin: 0 auto;
   text-align: center;
 }
+
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  margin-top: auto;
+}
+
+.box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  width: 70%;
+  text-align: center;
+  margin: 9rem auto;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.programbox {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  width: 90%;
+  text-align: center;
+  margin: 5rem auto;
+  color: white;
+}
+
+.contactbox {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+  margin: 20px auto 100px;
+  font-size: 1.5rem;
+  color: white;
+}
+
+
+.headerbox {
+  width: 75%;
+  margin: auto;
+  margin-top: 250px;
+}
+
+.headertitle {
+  font-size: 1.875rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: white;
+}
