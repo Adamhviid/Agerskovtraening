@@ -1,5 +1,5 @@
 <template lang="">
-  <footer class="bg-blue-950 text-white">
+  <footer class="footer">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
       <div class="sm:flex sm:items-center sm:justify-between">
         <div class="lg:text-left sm:text-left sm:text-justify sm:justify-center">
@@ -7,7 +7,7 @@
             Agerskov Træning
           </p>
           <div class="flex flex-col  sm:flex-row justify-center sm:justify-between">
-            <div class="p-1 lg:pr-10 ">
+            <div class="p-1 mt-2 mb-2 lg:pr-10 ">
               <p class="relative mt-1">
                 FysioDanmark 
               </p>
@@ -18,7 +18,7 @@
                 3400 Hillerød
               </p>
             </div>
-            <div class="p-1 sm:text-center">
+            <div class="p-1 mt-2 mb-2 sm:text-center">
               <p class="relative mt-1">
                 Smiley Fitness 
               </p>

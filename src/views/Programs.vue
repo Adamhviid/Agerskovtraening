@@ -1,4 +1,5 @@
 <script>
+import Layout from '../components/Layout.vue'
 import makker from '../assets/makker.png';
 import online from '../assets/online.png';
 import pt from '../assets/pt.png';
@@ -51,32 +52,43 @@ export default {
     };
   },
   components: {
-    Button
+    Button,
+    Layout
   }
 };
 </script>
 
 <template>
-  <div class="isolate bg-white">
-    <!--     <div class="bg-white">
-      <div class="mx-auto max-w-7xl px-6 lg:px-8">-->
-    <div class="mx-auto mt-3 max-w-2xl sm:mt-20 lg:mt-5 lg:max-w-4xl">
-      <h1 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-        Forløb & Træningsprogrammer
-      </h1>
-      <p class="mt-5">
-        Her har du et overblik over mine forløb. Hvis der er nogen tvil er du altid velkommen til at skrive til mig
-        via
-        mail, instagram eller kontaktformularen.
-      </p>
+  <Layout>
+    <div class="">
+      <div class="headerbox">
+        <p class="text-3xl font-bold tracking-tight text-white lg:text-center lg:text-6xl">
+          Forløb & Træningsprogrammer
+        </p>
+        <p class="text-xl mt-10 tracking-tight text-white lg:text-4xl">
+          Her har du et overblik over mine forløb. Hvis der er nogen tvil er du altid velkommen til at skrive til mig
+          via
+          mail, instagram eller kontaktformularen.
+        </p>
+      </div>
       <div v-for="(item, index) in items" :key="index">
-        <div class="mt-5 p-3 bg-blue-950 text-white relative h-auto w-200 ">
+        <div class="programbox">
           <img :src="item.image" alt="Row Image" class="h-32 w-32 mx-auto mb-4 rounded-full">
-          <h3 class="text-xl font-semibold mb-2">{{ item.title }}</h3>
-          <h3 class="text-md font-semibold mb-2">{{ item.subtitle }}</h3>
-          <p class="mt-2">{{ item.description }}</p>
-          <p class="mt-2">{{ item.extra_description }}</p>
-          <p class="mt-2">priser fra {{ item.price }}</p>
+          <p class="text-xl font-semibold mb-4">
+            {{ item.title }}
+          </p>
+          <p class="text-md font-semibold mb-4">
+            {{ item.subtitle }}
+          </p>
+          <p class="mt-2">
+            {{ item.description }}
+          </p>
+          <p class="mt-2">
+            {{ item.extra_description }}
+          </p>
+          <p class="mt-2">
+            priser fra {{ item.price }}
+          </p>
           <div class="p-3">
             <router-link to="/kontakt">
               <button class="bg-white hover:text-[#32579a] text-black font-bold py-2 px-4 rounded-full">
@@ -87,9 +99,7 @@ export default {
         </div>
       </div>
     </div>
-    <!-- </div>
-    </div> -->
-  </div>
+  </Layout>
 </template>
 
 <style>
@@ -104,6 +114,16 @@ export default {
 
   .lg\:gap-x-12 {
     gap: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 95%;
+  }
+
+  .reviewbox {
+    padding: 0 0 5px 0;
   }
 }
 </style>
