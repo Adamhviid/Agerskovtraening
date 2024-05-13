@@ -1,6 +1,7 @@
 <script setup>
 import Layout from "../components/Layout.vue";
 import Button from "../components/Button.vue";
+import Programs from "./Programs.vue";
 /* import ReviewCarousel from '../components/ReviewCarousel.vue'; */
 </script>
 
@@ -14,7 +15,16 @@ import Button from "../components/Button.vue";
 
             <div class="box">
                 <div class="mx-auto max-w-2xl lg:text-center">
-                    <p class="text-md leading-8">FysioDanmark Hillerød & Smiley Fitness</p>
+                    <p class="text-md leading-8">Online Coaching i hele Danmark</p>
+                    <h4 class="text-base font-bold mt-5">Overblik over din rejse - Det handler om dig.</h4>
+                    <Button
+                        to="/kontakt"
+                        text="Start din rejse her"></Button>
+                </div>
+            </div>
+            <div class="box">
+                <div class="mx-auto max-w-2xl lg:text-center">
+                    <p class="text-md leading-8">Personlig Træning i Hillerød og København</p>
                     <h4 class="text-base font-bold mt-5">En professionel vurdering og anbefaling - Dit valg og din indsats.</h4>
                     <Button
                         to="/kontakt"
@@ -25,27 +35,31 @@ import Button from "../components/Button.vue";
             <div class="box">
                 <h1 class="text-md mt-8 font-bold tracking-tight lg:text-2xl">Få maksimalt ud af din indsats!</h1>
                 <div class="text relative">
-                    Personlig træning / online coaching er en investering i din fremtid. Din læren om træning, kost og tilgangen hertil er en
-                    lifeskill, som du kan tage med dig resten af livet og lære videre til din familie.
+                    Tag kontrol over din krop med personlig træning / online coaching! Tiden er kostbar, og vi er her for at sikre, at hvert eneste
+                    øjeblik, du investerer i dit fitnesscenter, giver maksimalt udbytte.
                 </div>
                 <div class="relative mt-3">
-                    Vil du gerne have en stærkere krop, mere muskelmasse og mere funktionalitet? Sammen gør vi målet realistisk og du vil opleve
-                    fremskridt fra gang til gang.
+                    Drømmer du om en stærkere, mere muskuløs krop? Lad os sammen gøre drøm til virkelighed, og du vil opdage, at dine grænser er langt
+                    mere flydende, end du nogensinde har forestillet dig!
                 </div>
             </div>
 
             <div class="box">
                 <h1 class="mt-8 font-bold tracking-tight">MED PHILIP SOM TRÆNER</h1>
-                <div class="mt-3 relative mt-1">Dine resultater er lettere opnået, og rejsen er mere givende, end du tror.</div>
+                <div class="mt-3 relative mt-1">
+                    Jeg specialiserer mig i at tilpasse løsninger til dine unikke behov og finde den perfekte balance mellem hvad der passer dig og
+                    hvad der er optimalt. Som din træner føler jeg mig forpligtet til at være i frontlinjen af den nyeste evidens. Jeg er altid
+                    fordybet i at undersøge og samle erfaringer fra de aller bedste, så du får den mest effektive træning muligt!
+                </div>
                 <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="mt-16">
                         <div class="relative">
-                            Som ung bliver mange spurgt om hvad man vil arbejde med, men jeg mener der bør være nogle spørgsmål inden da:
+                            Jeg er Philip Agerskov - en kommende fysioterapeut, tidligere elitesvømmer, soldat og bare en almindelig hverdagsperson.
                         </div>
-                        <div class="mt-10">
-                            <div class="mt-2">1. Hvad gør dig glad?</div>
-                            <div class="mt-2">2. Hvordan kommer du dertil?</div>
-                            <div class="mt-2">3. Hvordan gør du det bedst muligt?</div>
+                        <div class="relative">
+                            I oktober 2022 oprettede jeg cvr-nummer på Agerskov Træning og siden da har vi virkelig skudt fart med vores eget klientel
+                            og spændende samarbejder med andre virksomheder. Vi har rejst en betydelig distance siden dengang, og den oplevelse, jeg
+                            tilbyder dig, afspejler vores rejse og ekspertise til fulde.
                         </div>
                     </div>
                     <div>
@@ -70,6 +84,7 @@ import Button from "../components/Button.vue";
                     </button>
                 </a>
             </div> -->
+            <Programs />
         </div>
     </Layout>
 </template>
