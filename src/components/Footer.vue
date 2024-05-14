@@ -80,10 +80,10 @@
                     <div class="float-right">
                         <Modal
                             :title="'Privatlivspolitik'"
-                            :pdfUrl="'./src/assets/PRIVATLIVSPOLITIK.pdf'" />
+                            :pdfUrl="'/PRIVATLIVSPOLITIK.pdf'" />
                         <Modal
                             :title="'Handelsbetingelser'"
-                            :pdfUrl="'./src/assets/HANDELSBETINGELSER.pdf'" />
+                            :pdfUrl="'/HANDELSBETINGELSER.pdf'" />
                     </div>
                 </div>
             </div>

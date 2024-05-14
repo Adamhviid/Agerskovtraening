@@ -27,7 +27,6 @@ export default {
     props: {
         title: String,
         pdfUrl: String,
-        show: Boolean,
     },
     data() {
         return {
