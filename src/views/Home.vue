@@ -2,6 +2,7 @@
 import Layout from "../components/Layout.vue";
 import Button from "../components/Button.vue";
 import Programs from "./Programs.vue";
+import Reviews from "../components/Reviews.vue";
 /* import ReviewCarousel from '../components/ReviewCarousel.vue'; */
 </script>
 
@@ -42,6 +43,7 @@ import Programs from "./Programs.vue";
                     Drømmer du om en stærkere, mere muskuløs krop? Lad os sammen gøre drøm til virkelighed, og du vil opdage, at dine grænser er langt
                     mere flydende, end du nogensinde har forestillet dig!
                 </div>
+                <Reviews />
             </div>
 
             <div class="box">
@@ -51,6 +53,16 @@ import Programs from "./Programs.vue";
                     hvad der er optimalt. Som din træner føler jeg mig forpligtet til at være i frontlinjen af den nyeste evidens. Jeg er altid
                     fordybet i at undersøge og samle erfaringer fra de aller bedste, så du får den mest effektive træning muligt!
                 </div>
+                <div class="mt-3 relative mt-1">
+                    Som din træner føler jeg mig forpligtet til at være i frontlinjen af den nyeste evidens. Jeg er altid fordybet i at undersøge og
+                    samle erfaringer fra de aller bedste, så du får den mest effektive træning muligt!
+                </div>
+
+                <img
+                    src="../assets/photos/books.jpg"
+                    alt="books"
+                    class="w-full max-w-64 h-auto" />
+
                 <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="mt-16">
                         <div class="relative">
@@ -64,9 +76,9 @@ import Programs from "./Programs.vue";
                     </div>
                     <div>
                         <img
-                            src="../assets/phillip1.jpeg"
+                            src="../assets/photos/phillip1.jpeg"
                             alt="Your Image"
-                            class="w-full max-w-64 h-auto" />
+                            class="w-full max-w-78 h-auto pt-20" />
                     </div>
                 </div>
                 <div class="relative mt-5">
@@ -84,7 +96,9 @@ import Programs from "./Programs.vue";
                     </button>
                 </a>
             </div> -->
-            <Programs />
+            <section id="programs">
+                <Programs />
+            </section>
         </div>
     </Layout>
 </template>

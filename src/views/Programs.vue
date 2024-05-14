@@ -1,9 +1,11 @@
 <script>
 import Layout from "../components/Layout.vue";
-import makker from "../assets/makker.png";
-import online from "../assets/online.png";
-import pt from "../assets/pt.png";
-import tp from "../assets/tp.png";
+import makker from "../assets/programs/MAKKER FORLØB.png";
+import online from "../assets/programs/ONLINE FORLØB.png";
+import pt from "../assets/programs/GRATIS OG UFORPLIGTENDE SAMTALE.png";
+import tp from "../assets/programs/FYSISK FORLØB.png";
+import enkelt from "../assets/programs/ENKELT SESSION.png";
+import program from "../assets/programs/TRÆNINGSPROGRAM.png";
 
 import Button from "../components/Button.vue";
 
@@ -48,14 +50,14 @@ export default {
                         "I samarbejde med mig, sikrer vi at du får maksimal value af din indsats og når dine mål. Vi tager skridtet videre i en blanding af fysiske sessioner, ugentlige online check-ins og en masse sparring undervejs.",
                 }, */
                 {
-                    image: pt,
+                    image: enkelt,
                     title: "ENKELTSESSION",
                     subtitle: "Personlig Træning | Coaching | Vejledning | Prof. Træningsprogram | Træningslære",
                     description:
                         "Når du træner med mig, får du ikke blot et træningsprogram - du får en personlig skræddersyet plan, skabt specifikt til dine ønsker og mål. Gennem vores sessioner sparrer vi om øvelser, teknikker og jeg giver dig værdifulde råd med på vejen til succes. Efter sessionen får du adgang til dit personlige program og mit omfattende drev, hvor du kan dykke ned i al den viden, der ligger til grund for min erfaring. Du vil altid have adgang til det træningsprogram, jeg har udarbejdet til dig, så du kan opbygge et solidt fundament for din fremtidige træningsplan.",
                 },
                 {
-                    image: pt,
+                    image: program,
                     title: "TRÆNINGSPROGRAM",
                     subtitle: "Træningsprogrammer er gratis",
                     description:
