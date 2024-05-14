@@ -21,6 +21,12 @@
                     Forløb
                 </router-link>
                 <router-link
+                    to="/#colabs"
+                    @click.native="scrollTo('colabs')"
+                    class="text-lg font-semibold leading-6 hover:text-[#32579a]">
+                    Samarbejdspartnere
+                </router-link>
+                <router-link
                     to="/kontakt"
                     class="text-lg font-semibold leading-6 hover:text-[#32579a]">
                     Kom i kontakt her!

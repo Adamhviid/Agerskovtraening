@@ -3,6 +3,7 @@ import Layout from "../components/Layout.vue";
 import Button from "../components/Button.vue";
 import Programs from "./Programs.vue";
 import Reviews from "../components/Reviews.vue";
+import Colabs from "./colabs.vue";
 /* import ReviewCarousel from '../components/ReviewCarousel.vue'; */
 </script>
 
@@ -20,7 +21,7 @@ import Reviews from "../components/Reviews.vue";
                     <h4 class="text-base font-bold mt-5">Overblik over din rejse - Det handler om dig.</h4>
                     <Button
                         to="/kontakt"
-                        text="Start din rejse her"></Button>
+                        text="Start din rejse her" />
                 </div>
             </div>
             <div class="box">
@@ -29,7 +30,7 @@ import Reviews from "../components/Reviews.vue";
                     <h4 class="text-base font-bold mt-5">En professionel vurdering og anbefaling - Dit valg og din indsats.</h4>
                     <Button
                         to="/kontakt"
-                        text="Start din rejse her"></Button>
+                        text="Start din rejse her" />
                 </div>
             </div>
 
@@ -98,6 +99,9 @@ import Reviews from "../components/Reviews.vue";
             </div> -->
             <section id="programs">
                 <Programs />
+            </section>
+            <section id="colabs">
+                <Colabs />
             </section>
         </div>
     </Layout>
