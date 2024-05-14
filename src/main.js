@@ -5,16 +5,10 @@ import { createRouter, createWebHistory } from 'vue-router'
 import VueCarousel from 'vue-carousel';
 
 import Home from './views/Home.vue'
-import About from './views/About.vue'
 import Contact from './views/Contact.vue'
-import Programs from './views/Programs.vue'
-import Feed from './views/Feed.vue'
 
 const routes = [
   { path: '/', component: Home },
-  { path: '/om', component: About },
-  { path: '/forloeb', component: Programs },
-  /* { path: '/feed', component: Feed }, */
   { path: '/kontakt', component: Contact },
 ]
 
