@@ -32,6 +32,12 @@ import Colabs from "./colabs.vue";
                         to="/kontakt"
                         text="Start din rejse her" />
                 </div>
+                <div class="image-container">
+                    <img
+                        src="../assets/photos/SHEETS på computer.png"
+                        alt="philip"
+                        class="" />
+                </div>
             </div>
 
             <div class="box">
@@ -58,11 +64,12 @@ import Colabs from "./colabs.vue";
                     Som din træner føler jeg mig forpligtet til at være i frontlinjen af den nyeste evidens. Jeg er altid fordybet i at undersøge og
                     samle erfaringer fra de aller bedste, så du får den mest effektive træning muligt!
                 </div>
-
-                <img
-                    src="../assets/photos/books.jpg"
-                    alt="books"
-                    class="w-full max-w-64 h-auto" />
+                <div class="image-container">
+                    <img
+                        src="../assets/photos/books.jpg"
+                        alt="books"
+                        class="" />
+                </div>
 
                 <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="mt-16">

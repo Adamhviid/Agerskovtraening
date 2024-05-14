@@ -1,16 +1,19 @@
 <template>
     <div>
         <div class="banner-container">
-            <img alt="banner" src="../assets/photos/banner.jpeg" class="banner-image mx-auto" />
+            <img
+                alt="banner"
+                src="../assets/photos/banner.jpeg"
+                class="banner-image mx-auto" />
         </div>
-        <slot></slot> <!-- This is where your view content will be injected -->
+        <slot></slot>
     </div>
 </template>
 
 <script>
 export default {
-    name: 'Layout'
-}
+    name: "Layout",
+};
 </script>
 
 <style scoped>

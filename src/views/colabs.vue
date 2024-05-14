@@ -56,9 +56,12 @@
 </template>
 
 <script>
-import Button from "../components/Button.vue";
+import Layout from "../components/Layout.vue";
 export default {
     name: "Colabs",
+    components: {
+        Layout,
+    },
 };
 </script>
 

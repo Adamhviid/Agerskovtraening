@@ -73,3 +73,11 @@ main {
   letter-spacing: 0.05em;
   color: white;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 50px;
+}
