@@ -5,21 +5,23 @@
                 <p class="text-3xl font-bold tracking-tight text-white lg:text-center lg:text-6xl">Samarbejde</p>
             </div>
             <div class="box">
+                <p class="text-md leading-8">
+                    Jeg er begejstret for mit partnerskab med DRAGO og THE BODY FACTORY. Vores samarbejde er dybt forankret i stærke relationer og et
+                    tæt bånd. Kvalitet og vision er afgørende for mig, og det er derfor, jeg med fuld tillid kan stå 10% bag både DRAGO og THE BODY
+                    FACTORY.
+                </p>
+            </div>
+            <div class="box">
                 <div class="mx-auto max-w-2xl lg:text-center">
-                    <p class="mt-8 font-bold tracking-tight">Drago</p>
-                    <h4 class="mt-3 relative mt-1">
-                        Jeg er begejstret for mit partnerskab med DRAGO og THE BODY FACTORY. Vores samarbejde er dybt forankret i stærke relationer og
-                        et tæt bånd. Kvalitet og vision er afgørende for mig, og det er derfor, jeg med fuld tillid kan stå 10% bag både DRAGO og THE
-                        BODY FACTORY.
-                    </h4>
+                    <h4 class="mt-3 relative mt-1"></h4>
                     <img
                         src="../assets/photos/DRAGO.png"
                         alt="drago"
-                        class="h-32 w-32 mx-auto mb-4 mt-5" />
+                        class="h-32 w-32 mx-auto mb-4 mt-5 rounded-full" />
                     <h4 class="mt-3 relative mt-1">
-                        DRAGO er ikke bare et mærke - det er en visionær bevægelse og et community. Deres tøj kombinerer street style med
-                        funktionalitet, hvilket gør det perfekt til både hverdagsbrug og træning. De går ikke på kompromis med kvaliteten og leverer
-                        100% på deres løfte om at levere topkvalitet.
+                        Drago er mere end et mærke. Det er et fællesskab for folk, der gerne vil opnå noget enesående. Uanset om det er professionelt
+                        eller i fritiden - eller om det er sport, musik, andet kunst, videnskab osv. Passionen for målet, der definerer hvor
+                        enestående resultatet bliver.
                     </h4>
                     <h4 class="mt-3 mb-5 relative mt-1">FÅ 10% RABAT MED “AGERSKOV10”.</h4>
                 </div>
@@ -32,11 +34,10 @@
             </div>
             <div class="box">
                 <div class="mx-auto max-w-2xl mb-5 lg:text-center">
-                    <p class="mt-8 font-bold tracking-tight">THE BODY FACTORY</p>
                     <img
                         src="../assets/photos/TBF.png"
                         alt="drago"
-                        class="h-32 w-32 mx-auto mb-4 mt-5" />
+                        class="h-32 w-32 mx-auto mb-4 mt-5 rounded-full" />
                     <h4 class="mt-3 relative mt-1">
                         The Body Factory har været en uundværlig del af min rejse fra dag ét. Ud over at levere tøj i topkvalitet, har de også
                         designet arbejdstøj og andet til min virksomhed. Med deres ekspertise og dedikation har de været en pålidelig partner, der har

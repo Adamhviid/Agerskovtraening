@@ -86,7 +86,7 @@ export default {
             <div
                 v-for="(item, index) in items"
                 :key="index">
-                <div class="programbox">
+                <div class="box">
                     <img
                         :src="item.image"
                         alt="Row Image"
@@ -104,8 +104,8 @@ export default {
                         {{ item.extra_description }}
                     </p>
                     <!-- <p class="mt-2">
-            priser fra {{ item.price }}
-          </p> -->
+                        priser fra {{ item.price }}
+                    </p> -->
                     <div class="p-3">
                         <router-link to="/kontakt">
                             <button class="bg-white hover:text-[#32579a] text-black font-bold py-2 px-4 rounded-full">Start nu</button>

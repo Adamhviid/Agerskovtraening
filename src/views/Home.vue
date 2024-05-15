@@ -32,13 +32,12 @@ import Colabs from "./colabs.vue";
                         to="/kontakt"
                         text="Start din rejse her" />
                 </div>
-                <div class="image-container">
-                    <img
-                        src="../assets/photos/SHEETS på computer.png"
-                        alt="philip"
-                        class="" />
-                </div>
+                <div class="image-container"></div>
             </div>
+            <img
+                src="../assets/photos/SHEETS på computer.png"
+                alt="philip"
+                class="w-full lg:w-1/2 mx-auto" />
 
             <div class="box">
                 <h1 class="text-md mt-8 font-bold tracking-tight lg:text-2xl">Få maksimalt ud af din indsats!</h1>
@@ -68,12 +67,12 @@ import Colabs from "./colabs.vue";
                     <img
                         src="../assets/photos/books.jpg"
                         alt="books"
-                        class="" />
+                        class="w-full lg:w-1/2" />
                 </div>
 
                 <div class="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="mt-16">
-                        <div class="relative">
+                        <div class="relative mb-10">
                             Jeg er Philip Agerskov - en kommende fysioterapeut, tidligere elitesvømmer, soldat og bare en almindelig hverdagsperson.
                         </div>
                         <div class="relative">
