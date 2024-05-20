@@ -72,12 +72,12 @@
             </div>
             <div>
                 <hr class="my-2 border-gray-200 mt-2" />
-                <div class="sm:flex sm:items-center sm:justify-between">
-                    <div class="sm:text-center">
+                <div class="sm:flex sm:items-center sm:justify-between flex-col sm:flex-row">
+                    <div class="text-center mb-2 sm:mb-0">
                         <p class="relative mt-1">© 2023 Agerskovtraening™. All Rights Reserved.</p>
                         <p class="relative mt-1 lg:text-left">CVR 43600605</p>
                     </div>
-                    <div class="float-right">
+                    <div>
                         <Modal
                             :title="'Privatlivspolitik'"
                             :pdfUrl="'/PRIVATLIVSPOLITIK.pdf'" />

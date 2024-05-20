@@ -13,27 +13,57 @@
                 </router-link>
             </div>
 
-            <div class="hidden lg:flex lg:gap-x-12">
-                <router-link
-                    to="/#programs"
-                    @click.native="scrollTo('programs')"
-                    class="text-lg font-semibold leading-6 hover:text-[#32579a]">
-                    Forløb
-                </router-link>
-                <router-link
-                    to="/#colabs"
-                    @click.native="scrollTo('colabs')"
-                    class="text-lg font-semibold leading-6 hover:text-[#32579a]">
-                    Samarbejdspartnere
-                </router-link>
-                <router-link
-                    to="/kontakt"
-                    class="text-lg font-semibold leading-6 hover:text-[#32579a]">
-                    Kom i kontakt her!
-                </router-link>
-                <!-- <router-link to="/feed" class="text-md font-semibold leading-6  hover:text-[#32579a]">
-          Feed
-        </router-link> -->
+            <div class="lg:flex lg:gap-x-12" v-if="!isMobile || showMenu">
+                <ul v-if="isMobile" class="">
+                    <li class="p-1">
+                        <router-link
+                            to="/#programs"
+                            @click.native="scrollTo('programs')"
+                            class="text-lg font-semibold leading-6 hover:text-[#32579a]">
+                            Forløb
+                        </router-link>
+                    </li>
+                    <li class="p-1">
+                        <router-link
+                            to="/#colabs"
+                            @click.native="scrollTo('colabs')"
+                            class="text-lg font-semibold leading-6 hover:text-[#32579a]">
+                            Samarbejdspartnere
+                        </router-link>
+                    </li>
+                    <li class="p-1">
+                        <router-link
+                            to="/kontakt"
+                            class="text-lg font-semibold leading-6 hover:text-[#32579a]">
+                            Kom i kontakt her!
+                        </router-link>
+                    </li>
+                </ul>
+                <div v-else class="hidden lg:flex lg:gap-x-12">
+                    <router-link
+                        to="/#programs"
+                        @click.native="scrollTo('programs')"
+                        class="text-lg font-semibold leading-6 hover:text-[#32579a]">
+                        Forløb
+                    </router-link>
+                    <router-link
+                        to="/#colabs"
+                        @click.native="scrollTo('colabs')"
+                        class="text-lg font-semibold leading-6 hover:text-[#32579a]">
+                        Samarbejdspartnere
+                    </router-link>
+                    <router-link
+                        to="/kontakt"
+                        class="text-lg font-semibold leading-6 hover:text-[#32579a]">
+                        Kom i kontakt her!
+                    </router-link>
+                </div>
+            </div>
+
+            <div v-else @click="showMenu = !showMenu">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-6 w-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
             </div>
         </nav>
     </header>
@@ -41,6 +71,12 @@
 
 <script>
 export default {
+    data() {
+        return {
+            isMobile: false,
+            showMenu: false,
+        };
+    },
     methods: {
         scrollTo(id) {
             this.$nextTick(() => {
@@ -52,6 +88,16 @@ export default {
                 }, 250); // delay in milliseconds
             });
         },
+        checkIsMobile() {
+            this.isMobile = window.innerWidth < 1024;
+        },
+    },
+    created() {
+        window.addEventListener('resize', this.checkIsMobile);
+        this.checkIsMobile();
+    },
+    beforeDestroy() {
+        window.removeEventListener('resize', this.checkIsMobile);
     },
 };
 </script>
