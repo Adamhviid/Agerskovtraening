@@ -18,21 +18,20 @@
                 slot="pagination"></div>
         </swiper>
     </div>
-    <div v-else>
+    <div
+        v-else
+        class="mt-5">
         <swiper
+            class="w-1/2"
             :options="swiperOption"
             :modules="modules"
             :pagination="{ clickable: true, renderBullet: bulletRenderer }">
             <swiper-slide
-                v-for="(slideGroup, i) in chunkedSlides"
+                v-for="(slide, i) in slides"
                 :key="i">
-                <div class="grid-container">
-                    <img
-                        v-for="(slide, j) in slideGroup"
-                        :key="j"
-                        :src="slide"
-                        class="slide-image" />
-                </div>
+                <img
+                    :src="slide"
+                    class="slide-image" />
             </swiper-slide>
             <div
                 class="swiper-pagination swiper-pagination-white"
@@ -108,7 +107,7 @@ export default {
 
 <style scoped>
 .grid-container {
-    width: 70%;
+    width: 30%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;

@@ -59,10 +59,6 @@ import Colabs from "./colabs.vue";
                     hvad der er optimalt. Som din træner føler jeg mig forpligtet til at være i frontlinjen af den nyeste evidens. Jeg er altid
                     fordybet i at undersøge og samle erfaringer fra de aller bedste, så du får den mest effektive træning muligt!
                 </div>
-                <div class="mt-3 relative mt-1">
-                    Som din træner føler jeg mig forpligtet til at være i frontlinjen af den nyeste evidens. Jeg er altid fordybet i at undersøge og
-                    samle erfaringer fra de aller bedste, så du får den mest effektive træning muligt!
-                </div>
                 <div class="image-container">
                     <img
                         src="../assets/photos/books.jpg"
@@ -87,11 +83,6 @@ import Colabs from "./colabs.vue";
                             alt="Your Image"
                             class="w-full max-w-78 h-auto pt-20" />
                     </div>
-                </div>
-                <div class="relative mt-5">
-                    Mit svar var “at hjælpe andre mennesker” og det ville jeg gøre gennem fysioterapi. Sidenhen har jeg fundet ud af at personlig
-                    træning er en lige så god vej, hvis ikke bedre, til at hjælpe andre til at nå deres mål.
-                    <div class="relative mt-5">Hvad er dit mål? Hvordan kommer du dertil? Hvordan når du det bedst muligt?</div>
                 </div>
             </div>
             <!-- <div class="box reviewbox mx-auto ">
